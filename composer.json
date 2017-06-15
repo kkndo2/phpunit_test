@@ -11,5 +11,9 @@
   ],
   "require": {
     "phpunit/phpunit": "6.3.x-dev"
-  }
+  },
+  "autoload": {
+    "psr-4": {"Kkndo2\\": "src/"}
+  },
+  "optimize-autoloader": false
 }
